@@ -18,6 +18,7 @@ public class CheckOutPageStepDefinitions {
 
 		this.textContextSetup = textContextSetup;
 		checkOutPage = textContextSetup.pageObjectManager.getCheckOutPage();
+		System.out.println("");
 
 	}
 	
